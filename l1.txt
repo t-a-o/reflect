@@ -1,0 +1,36 @@
+-How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Removes hassle of scrolling through many lines of code.
+Formats in a clear way the differences between the two files.
+
+-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It is nice to have a previous version to go through if new bugs are introduced with program changes.
+If you for some reason lose a file from hardware failures or user error, if using an offsite drop and sync often, there will at least be a somewhat new versions of files.
+
+-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+pros: 	you can go through the descriptions of each commit.
+	doesnt save needless changes that could make it a nightmare to scroll through a history on.
+	allows the user to decide what they prefer in terms of saves, user comfort is important.
+
+cons:	user could forget to commit changes
+	adds additional steps that could potentially pull user out of the 'zone'
+
+-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+because we may change code in multiple files where each change is interelated to the others.
+
+
+- How can you use the commands git log and git diff to view the history of files?
+
+using git log will be useful to see description histories of commits, with -stat attached it will show how many changes were made making it useful to see when some of the biggest changes happend
+using git diff will be useful to track what changes specifically were introduced.
+
+- 
+
+How might using version control make you more confident to make changes that could break something?
+
+keeps you from worrying about a permanent breakage. will be a real help in focusing, so even subconciously you're not stressing about things like breakage.
+
+

@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It takes an inventory of each file in the dir the contents of each file. You need to initialize so that we know what a git folder is?
